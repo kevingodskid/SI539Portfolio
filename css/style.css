@@ -1,3 +1,8 @@
+body {
+	background: #fefefe;
+
+				}
+
 .navigation{
 	display: block;
 }
@@ -8,9 +13,25 @@ nav a {
 	text-decoration: none;
 	padding: .8em .6em;
 }
+
+
+img {
+	max-width: 100%;
+}
+/*#left {
+		display: block;
+		width: 90%;
+		
+	}
+#right {
+		display: block;
+		width: 90%;*/
+
+@media screen and (min-width:800px) {
+
+	
 .photoproject {
 	display: flex;
-
 }
 
 .left {
@@ -22,7 +43,12 @@ nav a {
 .right {
 	flex: 1;
 }
-
-img {
-	max-width: 100%;
+.gallery img{
+	display: inline-block;
+	width:30%;
+}	
+		
 }
+	footer {
+		border:none;
+	}

@@ -6,15 +6,16 @@
 </head>
 <body>
 <nav>
-<a href="Porfolio.html">Photography Porfolio</a>
-<a href="About.html">About</a>
-<a href="Design.html">Desin</a>
-<a href="Resume.html">Resume</a>
+<a href="portfolio.html">Photography Portfolio</a>
+<a href="about.html">About</a>
+<a href="design.html">Desin</a>
+<a href="resume.html">Resume</a>
 </nav>
 
 <section class = "project1">
 <h1>More photos about Ann Arbor Fall</h1>
 <div class = "gallery">
+
 <img src = "img/leaves2.jpg" alt="leaves on the grass" >
 <img src = "img/leaves3.jpg" alt="leaves on the grass" >
 <img src = "img/leaves4.jpg" alt="leaves on the grass" >
@@ -44,6 +45,12 @@
   
   </nav>
 </footer>
+<script type="text/javascript">
+	var elem = document.querySelector('.m-p-g');
+			document.addEventListener('DOMContentLoaded', function() {
+				var gallery = new MaterialPhotoGallery(elem);
+			});
+</script>
 </body>
 
 </html>
