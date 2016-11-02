@@ -1,0 +1,28 @@
+.navigation{
+	display: block;
+}
+nav a { 
+	display:inline-block;
+	text-align: left;
+	color:grey;
+	text-decoration: none;
+	padding: .8em .6em;
+}
+.photoproject {
+	display: flex;
+
+}
+
+.left {
+	width: 30%;
+	margin-right: 1%;
+	margin-left: 5%;
+}
+
+.right {
+	flex: 1;
+}
+
+img {
+	max-width: 100%;
+}
