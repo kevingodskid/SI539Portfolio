@@ -46,14 +46,10 @@ nav a.active {
 	margin:auto;
 	border: 1px solid black;
 }
-/*#left {
-		display: block;
-		width: 90%;
-		
-	}
-#right {
-		display: block;
-		width: 90%;*/
+/*about page*/
+
+/*resume page*/
+
 iframe {
 	display: block;
 	width:880px; 
@@ -61,7 +57,10 @@ iframe {
 	border:none;
 	margin: 20px auto;
 }
-@media screen and (min-width:800px) {
+@media screen and (min-width: 600px) {
+ 
+    }
+@media screen and (min-width:900px) {
 
 	
 .photoproject {
@@ -81,8 +80,40 @@ iframe {
 	display: inline-block;
 	width:30%;
 }	
-		
+.aboutme{
+	display: inline-block;
+	position: relative;
+	background-image: url("img/me.jpg")
 }
+.selfintro{
+	position: absolute;    
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #3C6954;
+    z-index: 1;
+    font-family: helvetica,arial;
+}
+
+/* .selfintro h1 p {
+   display: inline-block;
+   font-size: 20px; /*or whatever you want*/
+   color: red; 
+ }
+#mypic{
+	width:100%;
+	height:auto;
+	opacity: 0.3;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}		
+.aboutme h1{
+
+}
+}
+
+  
 	footer {
 		border:none;
 	}
