@@ -1,18 +1,17 @@
-body {
-	background: #fefefe;
-
-				}
+.project{
+	color:#3C6954;
+}
 
 .navigation {
 	display: block;
 }
-/*.navigation a.active {
+.navigation a.active {
         top: 0;
   		pointer-events: none;
   		cursor: default;
-        color:#289f28;
-        background-color: grey;
-    }*/
+        color:#3C6954;
+        text-decoration: underline;
+    }
 
 
 
@@ -29,24 +28,35 @@ nav a {
 img {
 	max-width: 100%;
 }
+.selfintro{
+	display: block;
+	color: #3C6954;
+	background-image: none;
+}
+#mypic{
+	display: block;
+	width:100%;
+	height:auto;
+	opacity: 1;
+}
 
 #logo{
 	float: left;
     width: 75px;
     height: 50px;
 }
-nav a.active {
-	
-    background: #289f28;
+
+.left{
+	display: block;
+	margin:auto 0;
+	color: #3C6954;
 
 }
-.left h1{
-	font-size: 2em;
-	font-family: helvetica,arial;
-	margin:auto;
-	border: 1px solid black;
+.right{
+	display: block;
+	width:100%;
+	height:auto;
 }
-/*about page*/
 
 /*resume page*/
 
@@ -57,34 +67,73 @@ iframe {
 	border:none;
 	margin: 20px auto;
 }
+a[href^="mailto:"]{
+	color:#49bc86;
+
+}
 @media screen and (min-width: 600px) {
- 
-    }
+ .aboutme{
+ 	display: flex;
+ }
+ .aboutleft{
+ 	width: 30%;
+	margin-right: 5%;
+	margin-left: 5%;
+ }
+ .aboutright{
+ 	width:60%;
+ }
+ #mypic{
+	display: block;
+	width:60%;
+	height:50%;
+	opacity: 1;
+	}  
+.selfintro{
+	color: #3C6954;
+	}
+footer {
+	border:none;
+	position:relative;
+	bottom: 0;
+}
+}
+  
 @media screen and (min-width:900px) {
 
 	
 .photoproject {
 	display: flex;
-}
+	}
 
 .left {
-	width: 25%;
-	margin-right: 1%;
-	margin-left: 5%;
-}
+	
+	width: 50%;
+	margin-right: 2%;
+	margin-left: 2%;
+	}
 
 .right {
-	flex: 1;
-}
+
+	width: 60%;
+	
+	}
+.projectcover{
+	display: block;
+	width:100%;
+	height:auto;
+	
+	}  
+
 .gallery img{
 	display: inline-block;
 	width:30%;
-}	
+	}	
 .aboutme{
 	display: inline-block;
 	position: relative;
 	background-image: url("img/me.jpg")
-}
+	}
 .selfintro{
 	position: absolute;    
     left: 0;
@@ -95,26 +144,26 @@ iframe {
     color: #3C6954;
     z-index: 1;
     font-family: helvetica,arial;
-}
+	}
 
-/* .selfintro h1 p {
-   display: inline-block;
-   font-size: 20px; /*or whatever you want*/
-   color: red; 
- }
 #mypic{
 	width:100%;
 	height:auto;
 	opacity: 0.3;
     filter: alpha(opacity=50); /* For IE8 and earlier */
-}		
-.aboutme h1{
+	}		
 
-}
+footer {
+	border:none;
+	position:relative;
+	bottom: 0;
+	}	
 }
 
   
-	footer {
-		border:none;
-	}
+footer {
+	border:none;
+	position:relative;
+	bottom: 0;
+}
 
