@@ -1,19 +1,24 @@
 .project{
 	color:#3C6954;
 }
-
+.projecttext{
+	margin-bottom: 20px;
+}
 .navigation {
 	display: block;
 }
 .navigation a.active {
         top: 0;
-  		pointer-events: none;
-  		cursor: default;
+  		/*pointer-events: none;
+  		cursor: default;*/
         color:#3C6954;
         text-decoration: underline;
     }
 
-
+header{
+	padding-bottom: 5px;
+	margin:10px;
+}
 
 nav a { 
 	display:inline-block;
