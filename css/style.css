@@ -64,12 +64,9 @@ img {
 /*resume page*/
 
 iframe {
-	display: block;
-	width:880px; 
-	height:1000px;
-	border:none;
-	margin: 20px auto;
+    width: 100%;
 }
+
 a[href^="mailto:"]{
 	color:#49bc86;
 
@@ -100,6 +97,7 @@ footer {
 	position:relative;
 	bottom: 0;
 }
+
 }
   
 @media screen and (min-width:900px) {
@@ -161,6 +159,13 @@ footer {
 	position:relative;
 	bottom: 0;
 	}	
+iframe {
+	display: block;
+	width:880px; 
+	height:1000px;
+	border:none;
+	margin: 20px auto;
+}
 }
 
   
