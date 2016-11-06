@@ -137,14 +137,13 @@ footer {
 	}
 .selfintro{
 	position: absolute;    
-    left: 0;
+ 	margin-left: 0;
     top: 30%;
     width: 100%;
     text-align: center;
     font-size: 25px;
     color: #3C6954;
     z-index: 1;
-    font-family: helvetica,arial;
 	}
 
 #mypic{
